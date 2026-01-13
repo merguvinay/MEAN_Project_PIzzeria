@@ -1,0 +1,24 @@
+<div class="pizzas-container">
+    <div class="pizza-container" *ngFor="let pizza of pizzasList">
+        <div class="box box-1">
+            <p>{{pizza.name|titlecase}}</p>
+            <div class="label-container">
+                <div [class]="pizza.type==='veg'?'green':'red'"></div>
+            </div>
+            <p>{{pizza.price|currency:'INR'}}</p>
+        </div>
+        <div class="box box-2">
+            <p>{{pizza.description}}</p>
+            <p>
+                <span>Ingredients: </span>{{pizza.ingredients.join()}}
+            </p>
+            <p>
+                <span>Toppings: </span>{{pizza.topping.join()}}
+            </p>
+        </div>
+        <div class="box box-3">
+            <img [src]="pizza.image" [alt]="pizza.name" class="image">
+            <button class="cart-btn" (click)="performAction(pizza)">{{existInCart(pizza)?'Remove':'Add to Cart'}}</button>
+        </div>
+    </div>
+</div>

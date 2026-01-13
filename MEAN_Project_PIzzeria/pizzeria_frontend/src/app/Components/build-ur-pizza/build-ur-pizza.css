@@ -1,0 +1,50 @@
+.build-ur-pizza-container{
+    min-height:85vh;
+    padding:10px;
+}
+
+.custom-pizza-heading{
+    margin:5px;
+    font-size:20px;
+    text-align:center;
+}
+
+table{
+    width:50%;
+    margin: 20px auto;
+    background-color:whitesmoke;
+    border-radius:5px;
+    padding:5px 10px;
+}
+td{
+    text-align: center;
+    padding:8px;
+    font-size:20px;
+}
+
+.image{
+    width:150px;
+}
+
+.ingredient-controls-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:5px;
+}
+
+.btn{
+    padding:10px;
+    border:none;
+    font-size:16px;
+    font-weight:bold;
+    background-color:orange;
+    color:white;
+    border-radius:5px;
+}
+
+.btn-container{
+    margin:auto;
+    width:50%;
+    text-align:center;
+}

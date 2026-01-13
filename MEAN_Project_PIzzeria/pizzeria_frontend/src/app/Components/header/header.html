@@ -1,0 +1,8 @@
+<div class="header">
+        <nav class="navbar">
+                <img  routerLink="/" src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-pizza-logo-design-png-image_5683063.png" alt="pizzeria" class="logo">
+                <a class="nav-link" routerLink="/order-pizza" routerLinkActive="active">Order Pizza</a>
+                <a class="nav-link" routerLink="/build-ur-pizza" routerLinkActive="active">Build Ur Pizza</a>  
+        </nav>
+        <button class="btn" (click)="goToCart()">Shopping Cart ({{getTotalItems()}}) </button>
+</div>

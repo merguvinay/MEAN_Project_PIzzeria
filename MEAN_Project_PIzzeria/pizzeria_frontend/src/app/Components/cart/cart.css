@@ -1,0 +1,96 @@
+.cart-container{
+    min-height:85vh;
+    border:2px solid red;
+}
+
+.heading{
+    font-size:35px;
+    font-weight:400;
+    margin:5px;
+    text-align:center;
+}
+
+table{
+    margin:auto;
+    width:60%;
+    background-color:beige;
+    border-radius:5px;
+    border:2px solid red;
+    padding:5px;
+}
+
+th,td{
+    padding:5px;
+    font-size:20px;
+    text-align: center;
+}
+
+.quantity-box{
+    padding:8px;
+    justify-content:space-around;
+    display:flex;
+    align-items:center;
+}
+
+.qty-btn{
+    width:25px;
+    height:25px;
+    color:white;
+    border-radius:3px;
+    background-color:rgb(35, 80, 212);
+    border:none;
+    font-size:16px;
+    font-weight:600;
+    margin:5px;
+}
+
+.image{
+    width:60px;
+}
+
+.totalAmt{
+    font-weight:bold;
+    text-align:right;
+    margin:5px;
+}
+
+.remove-btn{
+    background-color:red;
+    color:white;
+    border:none;
+    padding:8px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+
+.empty-cart-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:85vh;
+}
+
+.empty-cart-heading{
+    font-size:40px;
+}
+
+.cart-controls-container{
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+}
+
+.control-btn{
+    padding:8px;
+    border-radius:4px;
+    font-weight:bold;
+    border:none;
+    background-color:rgb(217, 180, 13);
+    font-size:16px;
+    margin:8px;
+    width:120px;
+    cursor:pointer;
+}
